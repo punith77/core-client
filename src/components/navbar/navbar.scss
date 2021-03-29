@@ -1,0 +1,11 @@
+@import "../../scss/variables";
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem;
+
+  .ant-switch-checked {
+    background-color: color($blue-6);
+  }
+}
